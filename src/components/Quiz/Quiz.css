@@ -205,3 +205,37 @@
   background: #c40094;
   color: white;
 }
+
+@media (max-width: 770px) {
+  .container {
+    width: 80%;
+    padding: 40px 20px;
+  }
+
+  .home-page p {
+    font-size: 16px;
+  }
+
+  .container button {
+    font-size: 16px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .container .quiz-header {
+    font-size: 16px;
+  }
+
+  .container h2 {
+    font-size: 20px;
+  }
+
+  .container ul li {
+    font-size: 18px;
+    height: 60px;
+  }
+
+  .container h1 {
+    font-size: 23px;
+  }
+}

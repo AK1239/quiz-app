@@ -120,6 +120,16 @@ const Quiz = () => {
     }
   };
 
+  const startQuiz = () => {
+    setIndex(0);
+    setScore(0);
+    setLock(false);
+    setResult(false);
+    setProgressValue(0);
+    setAction("Quiz");
+    fetchQuestions();
+  };
+
   const reset = () => {
     setIndex(0);
     setScore(0);
@@ -147,7 +157,7 @@ const Quiz = () => {
           <p>3.You can see the score at the end of the game, and you can restart to start over with new questions!</p>
           <button
             onClick={() => {
-              setAction("Quiz");
+              startQuiz();
             }}
           >
             Start
