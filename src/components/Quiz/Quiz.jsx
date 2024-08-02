@@ -68,7 +68,7 @@ const Quiz = () => {
   };
 
   const animateProgress = () => {
-    let startValue = 0;
+    let startValue = -1;
     const endValue = (score / questions.length) * 100;
     const speed = 20;
 
